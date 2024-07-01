@@ -42,7 +42,7 @@ The concept layer is designed as a 3-level hierarchical structure with 15 types 
 
  The approval was obtained from the hospital's ethics review committee for this study(Serial No. 2022-082-01). There are 2989 mammography examination reports collected from the Radiology department of a Three-A hospital, spanning from December 2018 to July 2019. The data was then subjected to de-identification processing. Each report was prepared by one doctor and verified by another doctor. A total of nine doctors participated in this work. After duplicated reports were removed and reports with incomplete or incorrect data were deleted, the final dataset consists of 1171 reports used to construct the knowledge graph for breast cancer diagnosis.
  
-Because of the medical electronic medical record, no data set is provided in the code. We have provided some sample data in the "DATA" file. The data can be used for scientific research. If needed, please contact: hbxiaolong@ctgu.edu.cn.
+ The data are not publicly available due to privacy restrictions. Because of the medical electronic medical record, no data set is provided in the code. We have provided some sample data in the "DATA" file. The data can be made available upon reasonable request. If needed, please contact: hbxiaolong@ctgu.edu.cn.
 
 
 
