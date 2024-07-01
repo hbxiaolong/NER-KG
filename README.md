@@ -25,7 +25,13 @@ $ python3 muba_KG_new_new. py
 
 ### Explain
 
-The project consists of two parts, one is named entity recognition (execute main. py), which includes the basic crf+BILSTM, and the addition of the attachment network and the highway network on this basis, and the other is knowledge map construction (install Neo4j in advance, create an empty database, use python to construct the knowledge graph, and execute muba_KG_new_new. py).
+The project consists of two parts, one is named entity recognition (execute main. py), which includes the basic crf+BILSTM, and the addition of the attention mechanism network and the highway network on this basis, and the other is knowledge graph construction (install Neo4j in advance, create an empty database, use python to construct the knowledge graph, and execute muba_KG_new_new. py).
+
+The knowledge graph construction process mainly includes four steps: 1) the design of the concept layer. 2) the development of the data layer, which is composed of data annotation, feature extraction, and knowledge fusion. 3) knowledge graph construction. 4) knowledge graph applications. The details of each step are described in the paper: DOI10.1186/s12911-023-02322-0.
+
+
 
 Because of the medical electronic medical record, no data set is provided in the code.
+
+
 
