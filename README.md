@@ -38,7 +38,7 @@ The concept layer is designed as a 3-level hierarchical structure with 15 types 
 
 ![image](https://github.com/hbxiaolong/NER-KG/assets/116270284/038324d2-1dd1-4361-84d6-88bcfd418d28)
 
-**Development of the data layer **, we used the BILSTM-CRF deep learning model as the basic model, and improved the performance of the model by adding attention mechanisms and highway networks. This mainly includes steps such as data annotation, data extraction, paper knowledge fusion, and knowledge processing.
+**Development of the data layer**, we used the BILSTM-CRF deep learning model as the basic model, and improved the performance of the model by adding attention mechanisms and highway networks. This mainly includes steps such as data annotation, data extraction, paper knowledge fusion, and knowledge processing.
 
  The approval was obtained from the hospital's ethics review committee for this study(Serial No. 2022-082-01). There are 2989 mammography examination reports collected from the Radiology department of a Three-A hospital, spanning from December 2018 to July 2019. The data was then subjected to de-identification processing. Each report was prepared by one doctor and verified by another doctor. A total of nine doctors participated in this work. After duplicated reports were removed and reports with incomplete or incorrect data were deleted, the final dataset consists of 1171 reports used to construct the knowledge graph for breast cancer diagnosis.
  
