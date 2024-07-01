@@ -32,6 +32,9 @@ The knowledge graph construction process mainly includes four steps: 1) the desi
 **In the design of the concept layer**, we leveraged the Breast Imaging Reporting and Data System (BI-RADS) lexicon of the American College of Radiology , and the Breast Cancer Diagnosis and Treatment Guidelines issued by the Chinese Anti-Cancer Association. Additionally, we engaged four mammography radiologists from different hospitals to participate in ontology definition and concept layer framework design. Moreover, we extensively referenced domestic and international literature, as well as mammography examination norms and standards, to revise the concept layer .
 The concept layer is designed as a 3-level hierarchical structure with 15 types of mammography features primarily (Calcification, Density, Distribute, Location, Mass, Lymph Node, Margin, Merge, Number, Shape, Size, Special, Structure, Category descriptions, Negation). There are 4 entities such as "common signs" at the first level, there are 9 entities such as "Mass" at the second level, and related entity attributes are at the third level. According to the three-element principle of knowledge graph construction , it is necessary to clarify the three elements of entity-relationship-entity attribute or entity-relationship-entity. Guided by clinicians, we established relationships among entities and attributes. This study not only defined a set of entities and their attributes, but also established their hierarchical relationships. Once entities, entity attributes, and relationships were specified, the design of the concept layer of the knowledge graph for breast cancer diagnosis was completed. 
 
+![image](https://github.com/hbxiaolong/NER-KG/assets/116270284/4667e984-1aa5-48a8-9df5-37a792a3a71d)
+
+ 
 Because of the medical electronic medical record, no data set is provided in the code.
 
 
