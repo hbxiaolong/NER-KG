@@ -28,7 +28,8 @@ $ python3 muba_KG_new_new. py
 The project consists of two parts, one is named entity recognition (execute main. py), which includes the basic crf+BILSTM, and the addition of the attention mechanism network and the highway network on this basis, and the other is knowledge graph construction (install Neo4j in advance, create an empty database, use python to construct the knowledge graph, and execute muba_KG_new_new. py).
 
 The knowledge graph construction process mainly includes four steps: 1) the design of the concept layer. 2) the development of the data layer, which is composed of data annotation, feature extraction, and knowledge fusion. 3) knowledge graph construction. 4) knowledge graph applications. The details of each step are described in the paper: DOI10.1186/s12911-023-02322-0.
-![image](https://github.com/hbxiaolong/NER-KG/assets/116270284/2bdb0e13-4d09-48f0-9f22-9fae17cf16c7)
+![FIG 1](https://github.com/hbxiaolong/NER-KG/assets/116270284/c4a5930c-67b6-4a0d-b278-0358571eac59)
+
 
 
 **In the design of the concept layer**, we leveraged the Breast Imaging Reporting and Data System (BI-RADS) lexicon of the American College of Radiology , and the Breast Cancer Diagnosis and Treatment Guidelines issued by the Chinese Anti-Cancer Association. Additionally, we engaged four mammography radiologists from different hospitals to participate in ontology definition and concept layer framework design. Moreover, we extensively referenced domestic and international literature, as well as mammography examination norms and standards, to revise the concept layer .
